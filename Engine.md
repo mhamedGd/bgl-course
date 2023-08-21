@@ -212,7 +212,7 @@ To paste a GameObject as child:
 
 You can also press **Ctrl+Shift+V** (Windows) or **Command+Shift+V** (macOS) to paste a GameObject as a child.
 
-[Best practice]
+### [Best practice]
 
 When you group  GameObjects  make the parent EmptyGameObject and keep the scale on (x,y,z)
 
