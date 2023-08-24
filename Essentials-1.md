@@ -295,9 +295,7 @@ Let’s write an if-else statement that checks the amount of money in a characte
 5. Save the file and click on Play.
 ```cs
 public class LearningCurve: MonoBehaviour
-public int currentMoney
-    =
-    45;
+public int currentMoney = 45;
 
 void Start()
 {
@@ -314,5 +312,65 @@ void Start()
             }
         }
     }
+}
+```
+With currentMoney set to 45 in the above example, we can break down the code sequence as follows:
+1. The if statement and debug are skipped because currentMoney is not greater than 50.
+2. The else-if statement and debug log are also skipped because currentMoney is not less than 15.
+3. Since neither of the previous conditions was met, the else statement executes and the third debug log is displayed
+![Alt text](res/Lecture1/output.png)
+---
+## Loops
+Loops can execute a block of code as long as a specified condition is reached.
+<br>
+Loops are handy because they save time, reduce errors, and they make code more readable.
+---
+## While Loop
+The while loop loops through a block of code as long as a specified condition is True:
+### Syntax
+```cs
+while (condition) {
+  // code block to be executed
+}
+```
+In the example below, the code in the loop will run, over and over again, as long as a variable (i) is less than 5:
+### Example
+```cs
+bool isAlive = true;
+while(isAlive)
+{
+    Debug.Log("I'm alive!");
+}
+```
+## C# For Loop
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+### Syntax
+```cs
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+```
+Statement 1 is executed (one time) before the execution of the code block.
+<br>
+Statement 2 defines the condition for executing the code block.
+<br>
+Statement 3 is executed (every time) after the code block has been executed.
+<br>
+The example below will print the numbers 0 to 4:
+### Example
+```cs
+for (int i = 0; i < 5; i++) {
+  Debug.Log(i);
+}
+```
+### Example explained
+- Statement 1 sets a variable before the loop starts (int i = 0).
+- Statement 2 defines the condition for the loop to run (i must be less than 5). If the condition is true, the loop will start over again, if it is false, the loop will end.
+- Statement 3 increases a value (i++) each time the code block in the loop has been executed.
+### Another Example
+This example will only print even values between 0 and 10:
+```cs
+for (int i = 0; i <= 10; i = i + 2) {
+  Debug.Log(i);
 }
 ```
