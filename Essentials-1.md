@@ -229,21 +229,18 @@ A valid if-else statement must have the following syntax:
 - The “if” keyword at the beginning of the line
 - A pair of parentheses to hold the condition
 - A statement body
-  ````cs
+  ```cs
     if (condition is true){
         Execute multiple lines of code
     }
     ```
   Optionally, an else statement can be added to store the action you want to take when the if statement condition fails. The same rules apply to the else statement.
-  ````
-
 ```cs
 else
 {
     Execute multiple lines of code
 }
 ```
-
 In blueprint form, the syntax almost reads like a sentence.
 
 ```cs
