@@ -229,29 +229,33 @@ A valid if-else statement must have the following syntax:
 - The “if” keyword at the beginning of the line
 - A pair of parentheses to hold the condition
 - A statement body
-  ```cs
+
+```cs
     if (condition is true){
         Execute multiple lines of code
     }
-    ```
-  Optionally, an else statement can be added to store the action you want to take when the if statement condition fails. The same rules apply to the else statement.
-```cs
-else
-{
-    Execute multiple lines of code
-}
 ```
+
+  Optionally, an else statement can be added to store the action you want to take when the if statement condition fails. The same rules apply to the else statement.
+
+```cs
+    else
+    {
+        Execute multiple lines of code
+    }
+```
+
 In blueprint form, the syntax almost reads like a sentence.
 
 ```cs
-if (condition is true)
-{
-    Execute multiple lines of code
-}
-else
-{
-    Execute multiple lines of code
-}
+    if (condition is true)
+    {
+        Execute multiple lines of code
+    }
+    else
+    {
+        Execute multiple lines of code
+    }
 ```
 
 Since these are great introductions to logical thinking, at least in programming, we will break down the three different if-else variations in more detail:
@@ -285,12 +289,11 @@ public class LearningCurve : MonoBehaviour
         {
             if (hasDungeonkey)
             {
-                else
-                {
-                    Debug.Log("You possess the sacred key enter");
-
-                    Debug.Log("You have not proved yourself worthy, warrior");
-                }
+                Debug.Log("You possess the sacred key enter");
+            }
+            else
+            {
+                Debug.Log("You have not proved yourself worthy, warrior");
             }
         }
     }
@@ -317,15 +320,14 @@ void Start()
     if (currentMoney > 50)
     {
         Debug.Log("You're rolling in it beware of pickpockets");
-        else if (currentMoney < 15)
-        {
-            else
-            {
-
-                Debug.Log("Not much there to steal");
-                Debug.Log("Looks like your purse is in the sweet spot");
-            }
-        }
+    }
+    else if (currentMoney < 15)
+    {
+        Debug.Log("Not much there to steal");
+    }
+    else
+    {
+        Debug.Log("Looks like your purse is in the sweet spot");
     }
 }
 ```
@@ -335,10 +337,10 @@ With currentMoney set to 45 in the above example, we can break down the code seq
 1. The if statement and debug are skipped because currentMoney is not greater than 50.
 2. The else-if statement and debug log are also skipped because currentMoney is not less than 15.
 3. Since neither of the previous conditions was met, the else statement executes and the third debug log is displayed
-   ![Alt text](res/Lecture1/output.png)
 
----
+    ![Alt text](res/Lecture1/output.png)
 
+<br><br>
 ## Loops
 
 Loops can execute a block of code as long as a specified condition is reached.
