@@ -7,9 +7,9 @@ In this course, We'll be taking you through the joureny of jump-starting your sk
 
 ### Lectures
 - [x] Introduction to Game Industry
-- [ ] Introduction to the game engine
-- [ ] Essentials of Programming in Unity
-- [ ] Essentials of Real-time Audio / 2D / Physics / UI / Animation in Unity
+- [x] Introduction to the game engine
+- [x] Essentials of Programming in Unity
+- [x] Essentials of Real-time Audio / 2D / Physics / UI / Animation in Unity
 - [ ] Object-Oriented Programming - 1
 - [ ] Object-Oriented Programming - 2
 - [ ] Essentials of Game Design
