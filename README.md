@@ -10,7 +10,7 @@ In this course, We'll be taking you through the joureny of jump-starting your sk
 - [x] Introduction to the game engine
 - [x] Essentials of Programming in Unity
 - [x] Essentials of Real-time Audio / 2D / Physics / UI / Animation in Unity
-- [ ] Object-Oriented Programming - 1
+- [x] Object-Oriented Programming - 1
 - [ ] Object-Oriented Programming - 2
 - [ ] Essentials of Game Design
 - [ ] Project Game & Ideation - 1

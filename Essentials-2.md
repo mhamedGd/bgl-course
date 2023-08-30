@@ -1,4 +1,4 @@
-### Essentials 2
+# Essentials 2
 
 **Rigidbody**
 
