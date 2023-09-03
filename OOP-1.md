@@ -224,4 +224,9 @@ public class User : MonoBehvaiour {
 
 
 ---
-**TO BE CONTINUED**
+
+### [Introduction to OOP](https://youtu.be/LJFj6h0cPoQ?si=E3Hb9N4zqKk5Y2-P)<br>
+### [Abstraction](hhttps://youtu.be/q8PwnrVpIAw?si=PaOuRMWzQfmhCXLk)<br>
+### [Encapsulation](https://youtu.be/aQHLLkh9KLA?si=PL4D-YmOi3Sd0s6d)<br>
+### [Inheritance](https://youtu.be/kKsPbueOuUI?si=drBdOoLuHuNAXkgQ)<br>
+### [Polymorphism](https://youtu.be/ByOAIyGJETk?si=7RcceuRa92yZ6ssU)
