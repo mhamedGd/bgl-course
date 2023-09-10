@@ -13,7 +13,7 @@ In this course, We'll be taking you through the joureny of jump-starting your sk
 - [x] Object-Oriented Programming - 1
 - [x] Object-Oriented Programming - 2
 - [x] Essentials of Game Design
-- [ ] Project Game & Ideation - 1
+- [x] Project Game & Ideation - 1
 - [ ] Project Game & Ideation - 2
 - [ ] UI / UX
 - [ ] Localization
