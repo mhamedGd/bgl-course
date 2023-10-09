@@ -14,12 +14,12 @@ In this course, We'll be taking you through the joureny of jump-starting your sk
 - [x] Object-Oriented Programming - 2
 - [x] Essentials of Game Design
 - [x] Project Game & Ideation - 1
-- [ ] Project Game & Ideation - 2
-- [ ] UI / UX
-- [ ] Localization
-- [ ] Polish your game and publishing
-- [ ] Demo Day
-- [ ] Finale
+- [x] Project Game & Ideation - 2
+- [x] UI / UX
+- [x] Localization
+- [x] Polish your game and publishing
+- [x] Demo Day
+- [x] Finale
 
 <br><br><br>
 ## Meet the Trainers
